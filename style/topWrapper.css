@@ -1,4 +1,4 @@
-﻿/* 顶部导航栏样式 开始*/
+/* 顶部导航栏样式 开始*/
 div {
     display: block;
 }
@@ -170,7 +170,8 @@ img {
     overflow: hidden;
 }
 
-.dm-header-box .recommend-header .select, .dm-header-box .recommend-header .type-recommend:hover {
+.dm-header-box .recommend-header .select,
+.dm-header-box .recommend-header .type-recommend:hover {
     color: #FF1268;
 }
 .dm-header-box .recommend-header .type-recommend {
