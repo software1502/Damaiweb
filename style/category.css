@@ -1,0 +1,96 @@
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+.category {
+    border-top-color: rgb(55, 55, 55);
+    border-right-color: rgb(55, 55, 55);
+    border-bottom-color: rgb(55, 55, 55);
+    border-left-color: rgb(55, 55, 55);
+}
+.category {
+    margin-top: 15px!important;
+    padding: 22px 0 25px;
+    border: 1px solid #EBEBEB;
+    zoom: 1;
+}
+.category__list {
+    float: left;
+    display: block;
+    width: 120px;
+    text-align: center;
+}
+.sidebar .item a, a, a:hover {
+    text-decoration: none;
+}
+
+.category__icon {
+    background-image: url(blob:https://www.damai.cn/75a929f6-0081-48e7-b28a-8cb6c920c40d);
+    background-color: initial;
+}
+.category__icon__ych {
+    background-position: 0 0;
+}
+.category__icon__gjhj {
+    background-position: 0 -64px;
+}
+
+.category__icon__tyjj {
+    background-position: 0 -120px;
+}
+.category__icon {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    background: url(../image/category.png) no-repeat;
+    background-size: 100% auto;
+}
+.category__icon__qz {
+    background-position: 0 -180px;
+}
+
+.category__icon__zlxx {
+    background-position: 0 -240px;
+}
+
+.category__icon__yyh {
+    background-position: 0 -297px;
+}
+
+.category__icon__xsxq {
+    background-position: 0 -360px;
+}
+.category__icon__wdbl {
+    background-position: 0 -420px;
+}
+.category__icon__dm {
+    background-position: 0 -480px;
+}
+.category__icon__lyzl {
+    background-position: 0 -540px;
+}
+.category__info {
+    color: rgb(225, 224, 220);
+}
+.category__info {
+    font-size: 16px;
+    color: #111;
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.category:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    content: '.';
+}

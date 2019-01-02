@@ -158,9 +158,8 @@ img {
 }
 
 
--------------------------------------------------------------------------------
 /* 为首页分类栏设置样式 */
-.dm-header-box .recommend-header {
+ .recommend-header {
     max-width: 220px;
     height: 100%;
     float: left;
