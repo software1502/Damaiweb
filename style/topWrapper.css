@@ -1,0 +1,424 @@
+/* 顶部导航栏样式 开始*/
+div {
+    display: block;
+}
+.dm-header-wrap {
+    width: 100%;
+    height: 72px;
+    box-shadow: 0 2px 16px 0 rgba(220,220,220,.5);
+}
+/* 设置顶部盒子大小 */
+.dm-header-box {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    font-size: 0;
+}
+/* 设置顶部鼠标样式 */
+.dm-header-box a {
+    cursor: pointer;
+}
+
+/* 设置鼠标覆盖时文字装饰 */
+.sidebar .item a, a, a:hover {
+    text-decoration: none;
+}
+/* 设置图片高度 */
+img {
+    border: 0;
+}
+/* 设置logo样式 */
+.dm-header-box .i-logo {
+    width: 92px;
+    height: auto;
+    margin-top: 15px;
+    float: left;
+}
+
+/* 设置定位样式 */
+.dm-header-box .location-header {
+    height: 100%;
+    float: left;
+    position: relative;
+    margin-left: 54px;
+    line-height: 72px;
+    white-space: nowrap;
+    cursor: pointer;
+    display: none;
+}
+.dm-header-box .search-header .i-search {
+    width: 17px;
+    position: absolute;
+    left: 22px;
+    top: 15px;
+    z-index: 11;
+}
+/* 设置定位样式 */
+.dm-header-box .location-header .i-icon-location {
+    width: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dm-header-box .location-header:hover .city-header-wrap {
+	display: block;
+}
+.dm-header-box .location-header .city-location {
+    max-width: 60px;
+    font-size: 16px;
+    color: #2D2D2D;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* 设置小箭头样式 */
+.dm-header-box .location-header .i-arrow-location {
+    width: 9px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* 设置定位下拉栏样式 */
+.dm-header-box .location-header .city-header-wrap {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+/* 设置定位标签样式 */
+.dm-header-box .location-header .city-header {
+    width: 626px;
+    z-index: 999;
+    position: relative;
+    left: -115px;
+    top: 0;
+    margin-top: 60px;
+    background: #FFF;
+    border: 1px solid #F4F4F4;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.05);
+    border-radius: 2px;
+    padding: 21px;
+}
+/* 设置当前城市样式 */
+.dm-header-box .location-header .city-header .now-city {
+    line-height: 25px;
+}
+
+.dm-header-box .location-header .city-header .title-city {
+    width: 86px;
+}
+
+.dm-header-box .location-header .city-header .now-city .select-city {
+    color: #FF1268;
+    background-color: #fff4f8;
+    padding: 0 10px;
+}
+/* 设置热门城市样式 */
+.dm-header-box .location-header .city-header .hot-city {
+    line-height: 25px;
+    margin-top: 40px;
+}
+
+.dm-header-box .location-header .city-header .list-other {
+    width: 525px;
+    display: inline-block;
+    line-height: 29px;
+    margin-top: -3px;
+}
+
+/* 为城市列表设置样式 */
+.dm-header-box .location-header .city-header .name-city, .dm-header-box .location-header .city-header .title-city {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+    font-size: 16px;
+    color: #111;
+    letter-spacing: .56px;
+    float: left;
+}
+/* 为其他城市设置样式 */
+.dm-header-box .location-header .city-header .other-city {
+    line-height: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #EEE;
+    margin-top: 15px;
+}
+
+/* 为其他城市列表设置样式 */
+.dm-header-box .location-header .city-header .list-other {
+    width: 525px;
+    display: inline-block;
+    line-height: 29px;
+    margin-top: -3px;
+}
+
+
+-------------------------------------------------------------------------------
+/* 为首页分类栏设置样式 */
+.dm-header-box .recommend-header {
+    max-width: 220px;
+    height: 100%;
+    float: left;
+    margin-right: -20px;
+    margin-left: 40px;
+    line-height: 72px;
+    overflow: hidden;
+}
+
+.dm-header-box .recommend-header .select, .dm-header-box .recommend-header .type-recommend:hover {
+    color: #FF1268;
+}
+.dm-header-box .recommend-header .type-recommend {
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+    margin-right: 18px;
+    overflow: hidden;
+}
+
+.dm-header-box a {
+    cursor: pointer;
+}
+
+.sidebar .item a, a, a:hover {
+    text-decoration: none;
+}
+
+/* 为登陆-下载-语言 按钮设置样式 */
+.dm-header-box .right-header {
+    min-width: 55px;
+    height: 100%;
+    position: relative;
+    float: right;
+    line-height: 72px;
+}
+/* 为登陆设置样式 */
+.dm-header-box .right-header .box-header {
+    height: 100%;
+    display: inline-block;
+    line-height: 72px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 20px;
+}
+
+.dm-header-box a {
+    cursor: pointer;
+}
+
+.dm-header-box .right-header .user-header .i-user {
+    border-radius: 13px;
+}
+.dm-header-box .right-header .box-header .i-box-header {
+    width: 26px;
+    z-index: 20000;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.dm-header-box .right-header .user-header .name-user {
+    max-width: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dm-header-box .right-header .user-header .show {
+    display: inline-block;
+}
+
+.dm-header-box .right-header .user-header .login-user, .dm-header-box .right-header .user-header .name-user {
+    display: none;
+}
+
+.dm-header-box .right-header .box-header .span-box-header {
+    display: inline-block;
+    vertical-align: middle;
+    color: #111;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+
+.dm-header-box .right-header .user-header .list-wrap {
+    width: 133px;
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -67px;
+    top: 50px;
+    z-index: 999;
+}
+.dm-header-box .right-header .user-header .list-login {
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    background: #FFF;
+    border: 1px solid #F4F4F4;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.05);
+    border-radius: 2px;
+}
+.dm-header-box .right-header .user-header .list-login .li-login {
+    width: 100%;
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    font-size: 14px;
+    color: #111;
+    letter-spacing: .54px;
+    text-align: center;
+    border-bottom: 1px solid #F2F2F2;
+}
+.dm-header-box .right-header .user-header .list-login .out-login {
+    display: none;
+}
+
+
+.dm-header-box .right-header .box-header {
+    height: 100%;
+    display: inline-block;
+    line-height: 72px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 20px;
+}
+
+.dm-header-box .right-header .box-header .i-box-header {
+    width: 26px;
+    z-index: 20000;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.dm-header-box .right-header .box-header .span-box-header {
+    display: inline-block;
+    vertical-align: middle;
+    color: #111;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dm-header-box .right-header .download-header .ewm-download {
+    width: 80px;
+    height: 80px;
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: -12px;
+    z-index: 999;
+    background: #fff;
+    padding: 5px;
+    box-shadow: 1px -1px 1px #ccc;
+}
+
+.dm-header-box .right-header .download-header .ewm-download .i-ewm {
+    width: 100%;
+}
+
+.dm-header-box .right-header .box-header {
+    height: 100%;
+    display: inline-block;
+    line-height: 72px;
+    cursor: pointer;
+    position: relative;
+    margin-left: 20px;
+}
+.dm-header-box .right-header .box-header .i-box-header {
+    width: 26px;
+    z-index: 20000;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+.dm-header-box .right-header .box-header .span-box-header {
+    display: inline-block;
+    vertical-align: middle;
+    color: #111;
+    cursor: pointer;
+    font-size: 16px;
+}
+/* 为搜索栏设置样式 */
+.dm-header-box .search-header {
+    width: 401px;
+    height: 46px;
+    margin-top: 12px;
+    margin-right: 20px;
+    line-height: 46px;
+    float: right;
+    position: relative;
+}
+
+.dm-header-box .search-header .i-search {
+    width: 17px;
+    position: absolute;
+    left: 22px;
+    top: 15px;
+    z-index: 11;
+}
+
+/* 输入框样式 */
+.dm-header-box .search-header .input-search {
+    width: 253px;
+    height: 44px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    font-size: 16px;
+    outline: 0;
+    -webkit-appearance: none;
+    padding: 0 10px 0 54px;
+    border-top-left-radius: 46px;
+    border-bottom-left-radius: 46px;
+    border: 1px solid #f8f8f8;
+    background-color: #f8f8f8;
+    border-right-color: #FF1268;
+    box-sizing: content-box;
+}
+/* 搜索字体样式 */
+.dm-header-box .search-header .btn-search {
+    width: 82px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #FF1268;
+    line-height: 46px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 0 27px 27px 0;
+    z-index: 11;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+.dm-header-box .search-header .list-search-wrap {
+    width: 402px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.dm-header-box .search-header .list-search {
+    width: 374px;
+    max-height: 296px;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    margin-top: 55px;
+    z-index: 999;
+    padding: 0 14px;
+    background: #FFF;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,.05);
+    border-radius: 4px;
+}

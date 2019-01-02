@@ -1,0 +1,20 @@
+
+/* 清除内外边距 */
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置默认字体 */
+body, html {
+    font-size: 14px;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+
+img {
+    border: 0;
+}
+
+div {
+    display: block;
+}
